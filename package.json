@@ -22,7 +22,7 @@
     "test": "jest --no-cache --passWithNoTests --runInBand",
     "test:watch": "npm run test -- --watch",
     "test:ci": "npm run test -- --coverage",
-    "lint": "eslint src/**.js",
+    "lint": "eslint src/**",
     "lint:fix": "npm run lint -- --fix",
     "postinstall": "husky install"
   },
