@@ -11,6 +11,6 @@ type Task @model {
   title: String!
   description: String
   done: Boolean!
-  listID: String!
-  idUser: String!
+  idList: String!
+  list: List!
 }
