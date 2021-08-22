@@ -1,0 +1,27 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-todoappawsamplify-staging-204619-authRole",
+      "UnauthRoleArn": "arn:aws:iam::015944281885:role/amplify-todoappawsamplify-staging-204619-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::015944281885:role/amplify-todoappawsamplify-staging-204619-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-todoappawsamplify-staging-204619-deployment",
+      "UnauthRoleName": "amplify-todoappawsamplify-staging-204619-unauthRole",
+      "StackName": "amplify-todoappawsamplify-staging-204619",
+      "StackId": "arn:aws:cloudformation:us-east-1:015944281885:stack/amplify-todoappawsamplify-staging-204619/96da9930-02d9-11ec-8dae-0a99f4b9302b",
+      "AmplifyAppId": "d2qjpgypvxg338"
+    },
+    "categories": {
+      "function": {
+        "todoAppCustomMessage": {
+          "REDIRECTURL": "",
+          "EMAILSUBJECT": "",
+          "EMAILMESSAGE": ""
+        }
+      },
+      "auth": {
+        "todoApp": {}
+      }
+    }
+  }
+}
