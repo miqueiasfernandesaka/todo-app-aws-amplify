@@ -8,11 +8,11 @@
         },
         "EMAILMESSAGE": {
           "Type": "String",
-          "Default": ""
+          "Default": "Seu link para ativação da conta:"
         },
         "EMAILSUBJECT": {
           "Type": "String",
-          "Default": ""
+          "Default": "Todo App - Confirme sua conta:"
         },
         "modules": {
             "Type": "String",
