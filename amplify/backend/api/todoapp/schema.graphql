@@ -1,20 +1,16 @@
-type Blog @model {
-  id: ID!
-  name: String!
-  posts: [Post] @connection(keyName: "byBlog", fields: ["id"])
-}
-
-type Post @model @key(name: "byBlog", fields: ["blogID"]) {
+type List @model {
   id: ID!
   title: String!
-  blogID: ID!
-  blog: Blog @connection(fields: ["blogID"])
-  comments: [Comment] @connection(keyName: "byPost", fields: ["id"])
+  icon: String!
+  tasks: [Task]
+  idUser: String!
 }
 
-type Comment @model @key(name: "byPost", fields: ["postID", "content"]) {
+type Task @model {
   id: ID!
-  postID: ID!
-  post: Post @connection(fields: ["postID"])
-  content: String!
+  title: String!
+  description: String
+  done: Boolean!
+  listID: String!
+  idUser: String!
 }
